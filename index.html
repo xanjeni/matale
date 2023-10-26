@@ -1,16 +1,75 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <head>
-    <title>Classwork</title>
+    <title>My Website</title>
+    <style>
+        /* applying styles to elements */
+        ul {
+            color: rgb(255, 0, 0);
+            font-size: 20px;
+            background-color: #eee;
+            text-align: center;
+        }
+        th {
+            color: #00bfff;
+        }
+        td {
+            color: rgb(128, 0, 128);
+        }
+        h1 {
+            text-align: center;
+            color: #00bfff;
+        }
+        hr {
+            border: 2px solid #eee;
+        }
+        .contact-link {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <p>Paragraph<b> Bold</b> or <i>Italic</i>.</p>
-    <p>Line break:<br>It creates a new line.</p>
+    <h1>Welcome to My Website</h1>
+    <h2>About Me</h2>
+    <p>
+        Hello, my name is Birladeanu Dumitru. I am a web developer with a passion for coding.
+        <br>
+        I have experience in HTML, CSS, and JavaScript.
+    </p>
     <hr>
-    <p>Horizontal rule.</p>
-    <a href="https://www.google.com">Link to google.com</a>
-    <img src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg" alt="Image">
+    <h2>Skills</h2>
+    <!-- using ul, ol, and li tags -->
+    <ul>
+        <li><b>HTML</b></li>
+        <li><b>CSS</b></li>
+        <li><b>JavaScript</b></li>
+    </ul>
+    <!-- using table, tr, th, and td tags -->
+    <h2>Experience</h2>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Position</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>2018-2020</td>
+            <td>Web Developer</td>
+            <td>ABC Company</td>
+        </tr>
+        <tr>
+            <td>2020-Present</td>
+            <td>Senior Developer</td>
+            <td>XYZ Inc.</td>
+        </tr>
+    </table>
+    <h2>Contact Me</h2>
+    <p>
+        You can reach me via email at <a href="mailto:dimon@example.com" class="contact-link">dimon@example.com</a>.
+    </p>
+    <h2>My Picture</h2>
+    <img src="profile.jpg" alt="My Profile Picture">
 </body>
 </html>
+
